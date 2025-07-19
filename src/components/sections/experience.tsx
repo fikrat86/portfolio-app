@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import SectionHeading from "@/components/ui/section-heading";
 import { experiencesData } from "@/data/experiences";

@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import { BsSun, BsMoon } from "react-icons/bs";
 
@@ -24,8 +26,7 @@ export default function ThemeSwitch() {
         document.documentElement.classList.add("dark");
       }
     } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark
-      ");
+      setTheme("dark");
       document.documentElement.classList.add("dark");
     }
   }, []);

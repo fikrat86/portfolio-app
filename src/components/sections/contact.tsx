@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import SectionHeading from "@/components/ui/section-heading";
 import { motion } from "framer-motion";
@@ -17,8 +19,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:hushng.fikrat@example.com">
-          hushng.fikrat@example.com
+        <a className="underline" href="mailto:fikrat86@gmail.com">
+          fikrat86@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -41,6 +43,7 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
-    </section>
+    </motion.section>
   );
 }
+

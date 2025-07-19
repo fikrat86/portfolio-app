@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -37,10 +39,42 @@ export default function Home() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Hushng.</span> I'm a passionate
-        <span className="font-bold"> IT and Cloud Computing professional</span> with a
-        mission to drive cloud innovation through practical solutions.
+        <span className="font-bold">Hello, I&apos;m Hushng Fikrat Muhibullah.</span> I&apos;m an
+        <span className="font-bold"> IT professional</span> with over 10 years of experience
+        specializing in <span className="font-bold">IT infrastructure management and system integration.</span>
       </motion.h1>
+
+      <motion.div
+        className="flex flex-wrap justify-center gap-4 mb-10"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.15 }}
+      >
+        <Image
+          src="/cloudessentials.png"
+          alt="AWS Cloud Essentials Badge"
+          width="100"
+          height="100"
+          quality="95"
+          className="max-w-[100px] h-auto object-contain"
+        />
+        <Image
+          src="/cloudpractitioner.png"
+          alt="AWS Cloud Practitioner Badge"
+          width="100"
+          height="100"
+          quality="95"
+          className="max-w-[100px] h-auto object-contain"
+        />
+        <Image
+          src="/comptia.png"
+          alt="CompTIA A+ Badge"
+          width="100"
+          height="100"
+          quality="95"
+          className="max-w-[100px] h-auto object-contain"
+        />
+      </motion.div>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

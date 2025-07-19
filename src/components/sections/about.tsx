@@ -1,3 +1,5 @@
+'use client';
+
 import React from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/section-heading";
@@ -13,20 +15,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        As a dedicated IT and Cloud Computing professional, I have a strong
-        background in system administration, DevOps, and cloud platforms like
-        AWS, Azure, and GCP. My passion lies in leveraging cloud automation and
-        AI-powered solutions to solve complex problems and drive business
-        efficiency. I am constantly exploring new technologies and methodologies
-        to stay at the forefront of the ever-evolving IT landscape.
-      </p>
-
-      <p>
-        I am a firm believer in the power of collaboration and continuous
-        learning. I am always eager to take on new challenges and work with
-        like-minded individuals to create innovative solutions. My goal is to
-        contribute to the advancement of cloud computing and help organizations
-        harness its full potential.
+        IT professional with over 10 years of experience specializing in IT infrastructure management and system integration. AWS Certified Cloud Practitioner, currently pursuing a post-graduate program in Cloud Computing at Durham College to deepen expertise in cloud technologies. Skilled in designing and implementing scalable cloud solutions, leveraging a robust technical foundation and AWS knowledge.
       </p>
     </motion.section>
   );

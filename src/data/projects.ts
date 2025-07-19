@@ -1,4 +1,4 @@
-export const projectsData = [
+export const professionalProjectsData = [
   {
     title: "CloudOps Lite",
     description:
@@ -22,5 +22,16 @@ export const projectsData = [
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
     imageUrl: "/project-thumbnails/onhelp-platform.png",
     projectUrl: "https://onhelp.com",
+  },
+] as const;
+
+export const personalProjectsData = [
+  {
+    title: "Azada Gorgeous",
+    description:
+      "A personal website showcasing various creative projects and interests.",
+    tags: ["Web Design", "Personal Project"],
+    imageUrl: "/file.svg", // Placeholder image
+    projectUrl: "https://azadagorgeous.com/",
   },
 ] as const;

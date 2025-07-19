@@ -16,6 +16,14 @@ export const headerData = [
     hash: "#experience",
   },
   {
+    name: "Education",
+    hash: "#education",
+  },
+  {
+    name: "Certifications",
+    hash: "#certifications",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
