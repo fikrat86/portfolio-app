@@ -1,5 +1,13 @@
 export const professionalProjectsData = [
   {
+    title: "Quranly – AI Tutor SaaS",
+    description:
+      "AI-powered Quran recitation tutor built on Firebase & Google Cloud. Includes a Stripe-based monetization phase with subscription tiers (Pro/Institutional), Checkout sessions, webhooks for billing events, and gated premium features via role claims and Firestore rules.",
+    tags: ["React", "Firebase", "Google Cloud", "Stripe", "SaaS"],
+    imageUrl: "/project-thumbnails/quran-ai-tutor.jpg",
+    projectUrl: "https://github.com/fikrat86",
+  },
+  {
     title: "OPL Website CI/CD",
     description:
       "CI/CD workflow for OPL website using GitHub Actions to build and deploy.",
