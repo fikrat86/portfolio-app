@@ -1,27 +1,19 @@
 export const professionalProjectsData = [
   {
-    title: "On-Prem to AWS Migration (Student Project)",
+    title: "OPL Website CI/CD",
     description:
-      "Migrated legacy Windows workloads to AWS, reducing operational overhead by 40% through automated provisioning and right-sizing.",
-    tags: ["AWS", "EC2", "S3", "IAM", "PowerShell"],
+      "CI/CD workflow for OPL website using GitHub Actions to build and deploy.",
+    tags: ["GitHub Actions", "CI/CD", "HTML"],
     imageUrl: "/file.svg",
-    projectUrl: "https://github.com/fikrat86",
+    projectUrl: "https://github.com/fikrat86/opl-website-ci-cd",
   },
   {
-    title: "Backup & DR Strategy (AWS/Azure)",
+    title: "Database",
     description:
-      "Designed and tested a backup and disaster recovery plan using AWS and Azure storage solutions to improve resilience and RPO/RTO.",
-    tags: ["AWS", "Azure", "Storage", "Bash", "Python"],
+      "Repository for database-related work and scripts.",
+    tags: ["SQL", "Data"],
     imageUrl: "/file.svg",
-    projectUrl: "https://github.com/fikrat86",
-  },
-  {
-    title: "CI/CD and Infra Automation Contributions",
-    description:
-      "Contributed to Quranly, portfolio-app, and opl-website-ci-cd repositories, focusing on CI/CD setup and automation.",
-    tags: ["GitHub Actions", "Docker", "CI/CD", "IaC"],
-    imageUrl: "/file.svg",
-    projectUrl: "https://github.com/fikrat86",
+    projectUrl: "https://github.com/fikrat86/Database",
   },
 ] as const;
 
@@ -29,9 +21,9 @@ export const personalProjectsData = [
   {
     title: "Portfolio App",
     description:
-      "This portfolio site built with Next.js, deployed on Firebase Hosting with client-side analytics.",
-    tags: ["Next.js", "Firebase Hosting", "TypeScript"],
-    imageUrl: "/project-thumbnails/onhelp-platform.png",
-    projectUrl: "https://portfolio-49f8f.web.app",
+      "Professional portfolio built with Next.js, Tailwind CSS, and TypeScript; deployed to Firebase Hosting.",
+    tags: ["Next.js", "Firebase Hosting", "TypeScript", "Tailwind CSS"],
+    imageUrl: "/file.svg",
+    projectUrl: "https://github.com/fikrat86/portfolio-app",
   },
 ] as const;
