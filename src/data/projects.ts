@@ -1,37 +1,37 @@
 export const professionalProjectsData = [
   {
-    title: "CloudOps Lite",
+    title: "On-Prem to AWS Migration (Student Project)",
     description:
-      "A lightweight, open-source toolkit for simplifying cloud operations and automating common DevOps tasks. It provides a set of scripts and utilities for managing cloud resources, deploying applications, and monitoring infrastructure.",
-    tags: ["Python", "AWS", "Docker", "Terraform"],
-    imageUrl: "/project-thumbnails/cloudops-lite.png",
-    projectUrl: "https://github.com/hushig/cloudops-lite",
+      "Migrated legacy Windows workloads to AWS, reducing operational overhead by 40% through automated provisioning and right-sizing.",
+    tags: ["AWS", "EC2", "S3", "IAM", "PowerShell"],
+    imageUrl: "/file.svg",
+    projectUrl: "https://github.com/fikrat86",
   },
   {
-    title: "Quran AI Tutor",
+    title: "Backup & DR Strategy (AWS/Azure)",
     description:
-      "An AI-powered Quran teaching application that provides personalized feedback and guidance to learners. It uses speech recognition and natural language processing to analyze recitation and offer corrective suggestions.",
-    tags: ["Python", "TensorFlow", "React", "Node.js"],
-    imageUrl: "/project-thumbnails/quran-ai-tutor.png",
-    projectUrl: "https://github.com/hushig/quran-ai-tutor",
+      "Designed and tested a backup and disaster recovery plan using AWS and Azure storage solutions to improve resilience and RPO/RTO.",
+    tags: ["AWS", "Azure", "Storage", "Bash", "Python"],
+    imageUrl: "/file.svg",
+    projectUrl: "https://github.com/fikrat86",
   },
   {
-    title: "OnHelp Platform",
+    title: "CI/CD and Infra Automation Contributions",
     description:
-      "A B2B/B2C service platform that connects educators and professionals with clients. It provides a marketplace for booking services, managing appointments, and processing payments.",
-    tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    imageUrl: "/project-thumbnails/onhelp-platform.png",
-    projectUrl: "https://onhelp.com",
+      "Contributed to Quranly, portfolio-app, and opl-website-ci-cd repositories, focusing on CI/CD setup and automation.",
+    tags: ["GitHub Actions", "Docker", "CI/CD", "IaC"],
+    imageUrl: "/file.svg",
+    projectUrl: "https://github.com/fikrat86",
   },
 ] as const;
 
 export const personalProjectsData = [
   {
-    title: "Azada Gorgeous",
+    title: "Portfolio App",
     description:
-      "A personal website showcasing various creative projects and interests.",
-    tags: ["Web Design", "Personal Project"],
-    imageUrl: "/file.svg", // Placeholder image
-    projectUrl: "https://azadagorgeous.com/",
+      "This portfolio site built with Next.js, deployed on Firebase Hosting with client-side analytics.",
+    tags: ["Next.js", "Firebase Hosting", "TypeScript"],
+    imageUrl: "/project-thumbnails/onhelp-platform.png",
+    projectUrl: "https://portfolio-49f8f.web.app",
   },
 ] as const;

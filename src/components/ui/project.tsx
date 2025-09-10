@@ -3,9 +3,14 @@
 import React from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { projectsData } from "@/data/projects";
-
-type ProjectProps = (typeof projectsData)[number];
+// Props representing a single project card
+type ProjectProps = {
+  title: string;
+  description: string;
+  tags: readonly string[];
+  imageUrl: string;
+  projectUrl: string;
+};
 
 export default function Project({ title, description, tags, imageUrl }: ProjectProps) {
   const ref = React.useRef<HTMLDivElement>(null);

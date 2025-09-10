@@ -1,29 +1,37 @@
 export const skillsData = {
-  "Cloud Computing Fundamentals": [
-    "AWS Well-Architected Framework",
-    "Cloud Security",
-    "Pricing Models"
+  "Operating Systems": [
+    "Windows Server (2008–2019)",
+    "Linux (Ubuntu, CentOS, RHEL)"
   ],
   "Cloud Platforms": [
-    "AWS Certified",
-    "Azure",
-    "Google Cloud (in progress)"
+    "AWS (EC2, S3, IAM)",
+    "Azure (VMs, Resource Groups, Storage)"
   ],
-  "System Integration": [
-    "System Integration"
-  ],
-  "Programming & Scripting": [
-    "HTML",
-    "CSS",
-    "SQL",
+  "Scripting & Automation": [
     "PowerShell",
     "Bash",
     "Python"
   ],
-  "Management & Collaboration": [
-    "Project Coordination",
-    "Vendor Management",
-    "Team Leadership",
-    "Cross-Functional Collaboration"
-  ]
+  "DevOps & Containers": [
+    "Git",
+    "Docker",
+    "Kubernetes (basic)",
+    "CI/CD pipeline support"
+  ],
+  "Infrastructure & Networking": [
+    "Active Directory",
+    "GPOs",
+    "DNS",
+    "DHCP",
+    "TCP/IP",
+    "Firewalls",
+    "VPNs"
+  ],
+  "System Ops & Security": [
+    "Performance tuning",
+    "Backup strategies",
+    "Disaster recovery planning",
+    "System hardening"
+  ],
+  Languages: ["English", "French (pre-Intermediate)"]
 } as const;

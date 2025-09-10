@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/sections/header";
 import Footer from "@/components/sections/footer";
 import ThemeSwitch from "@/components/ui/theme-switch";
+import FirebaseClient from "@/components/ui/firebase-client";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +32,8 @@ export default function RootLayout({
         <Footer />
 
         <ThemeSwitch />
+  {/* Initialize Firebase (client-only) */}
+  <FirebaseClient />
       </body>
     </html>
   );

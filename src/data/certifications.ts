@@ -16,6 +16,11 @@ export const certificationsData = [
     image: "/cloudessentials.png"
   },
   {
+    name: "AWS Academy Graduate – Cloud Foundations & Operations",
+    issuer: "AWS Academy",
+    year: "2025",
+  },
+  {
     name: "Practice Exam for CompTIA A+ Certification (Core 1 & Core 2)",
     issuer: "Coursera",
     year: "2024",

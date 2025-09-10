@@ -39,9 +39,9 @@ export default function Home() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I&apos;m Hushng Fikrat Muhibullah.</span> I&apos;m an
-        <span className="font-bold"> IT professional</span> with over 10 years of experience
-        specializing in <span className="font-bold">IT infrastructure management and system integration.</span>
+  <span className="font-bold">Hello, I&apos;m Hushng Fikrat Muhibullah.</span> Cloud Computing student with 10+ years in
+  <span className="font-bold"> Windows/Linux administration</span>, cloud infrastructure (AWS/Azure), and
+  <span className="font-bold"> automation</span> with PowerShell, Bash, and Python.
       </motion.h1>
 
       <motion.div
@@ -101,7 +101,7 @@ export default function Home() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/hushng-fikrat-muhibullah/"
+          href="https://www.linkedin.com/in/hushangfikrat"
           target="_blank"
         >
           <BsLinkedin />
@@ -109,7 +109,7 @@ export default function Home() {
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/hushig"
+          href="https://github.com/fikrat86"
           target="_blank"
         >
           <FaGithubSquare />
