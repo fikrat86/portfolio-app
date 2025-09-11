@@ -12,7 +12,7 @@ export const professionalProjectsData = [
     description:
       "CI/CD workflow for OPL website using GitHub Actions to build and deploy.",
     tags: ["GitHub Actions", "CI/CD", "HTML"],
-    imageUrl: "/file.svg",
+  imageUrl: "/project-thumbnails/opl.png",
     projectUrl: "https://github.com/fikrat86/opl-website-ci-cd",
   },
   {
