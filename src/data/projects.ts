@@ -16,12 +16,12 @@ export const professionalProjectsData = [
     projectUrl: "https://github.com/fikrat86/opl-website-ci-cd",
   },
   {
-    title: "Database",
+    title: "AWS Unused Service Remover",
     description:
-      "Repository for database-related work and scripts.",
-    tags: ["SQL", "Data"],
-    imageUrl: "/file.svg",
-    projectUrl: "https://github.com/fikrat86/Database",
+      "Flask app that identifies idle EC2 instances tagged for auto-shutdown and lets users review and stop them safely. Uses Boto3, secure IAM roles (least privilege), and a confirm-before-action UI to cut AWS costs and strengthen FinOps governance.",
+    tags: ["Python", "Flask", "AWS", "EC2", "Boto3", "IAM", "Cost Optimization"],
+    imageUrl: "/project-thumbnails/awsunused.jpg",
+    projectUrl: "https://github.com/fikrat86",
   },
 ] as const;
 
