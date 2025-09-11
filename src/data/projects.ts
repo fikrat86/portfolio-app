@@ -31,7 +31,7 @@ export const personalProjectsData = [
     description:
       "Professional portfolio built with Next.js, Tailwind CSS, and TypeScript; deployed to Firebase Hosting.",
     tags: ["Next.js", "Firebase Hosting", "TypeScript", "Tailwind CSS"],
-    imageUrl: "/file.svg",
+  imageUrl: "/project-thumbnails/portfolio.jpg",
     projectUrl: "https://github.com/fikrat86/portfolio-app",
   },
 ] as const;
