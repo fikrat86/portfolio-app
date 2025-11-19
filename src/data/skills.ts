@@ -18,6 +18,12 @@ export const skillsData = {
     "Kubernetes (basic)",
     "CI/CD pipeline support"
   ],
+  "AI-Assisted Development": [
+    "Visual Studio Code Copilot",
+    "AI-Powered Tools in SDLC",
+    "Prompt Engineering",
+    "Gemini CLI"
+  ],
   "Infrastructure & Networking": [
     "Active Directory",
     "GPOs",

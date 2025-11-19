@@ -1,5 +1,13 @@
 export const professionalProjectsData = [
   {
+    title: "Fraudulent Claims Detection Agent",
+    description:
+      "Architected a full DevSecOps pipeline, utilizing AI-powered tooling (e.g., Copilot) during development to ensure code quality and integrating security scanners (Trivy, Gitleaks) prior to pushing images. Deployed a scalable fraud detection solution with automated testing and continuous monitoring.",
+    tags: ["DevSecOps", "AI-Powered Dev", "Docker", "Trivy", "Gitleaks", "CI/CD"],
+    imageUrl: "/file.svg",
+    projectUrl: "https://github.com/fikrat86",
+  },
+  {
     title: "Quranly – AI Tutor SaaS",
     description:
       "AI-powered Quran recitation tutor built on Firebase & Google Cloud. Includes a Stripe-based monetization phase with subscription tiers (Pro/Institutional), Checkout sessions, webhooks for billing events, and gated premium features via role claims and Firestore rules.",
