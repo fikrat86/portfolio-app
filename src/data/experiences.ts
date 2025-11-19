@@ -1,5 +1,15 @@
 export const experiencesData = [
   {
+    title: "Application Support Assistant",
+    company: "Durham College, Oshawa, ON",
+    duration: "Oct 2025–Present",
+    description: [
+      "Provide infrastructure support and troubleshoot cloud-based systems.",
+      "Develop automation scripts using PowerShell and Python.",
+      "Spearheaded the migration of a high-end workstation to a Proxmox VE hypervisor, achieving a 40:1 consolidation ratio for 40 isolated developer VMs.",
+    ],
+  },
+  {
     title: "Senior System Administrator",
     company: "Lean Solutions, GTA, ON",
     duration: "2021–2024",
